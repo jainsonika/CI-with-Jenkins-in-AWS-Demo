@@ -5,17 +5,17 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building..'
+                echo 'Building from Jenkinsfile..'
             }
         }
         stage('Test') {
             steps {
-                echo 'Testing..'
+                echo 'Testing from Jenkinsfile..'
             }
         }
         stage('Deploy') {
             steps {
-                echo 'Deploying....'
+                echo 'Deploying from Jenkinsfile....'
             }
         }
     }
